@@ -138,7 +138,7 @@ def decrypt_folder():
     root.quit()  # Menutup aplikasi setelah dekripsi selesai
 
 root = tk.Tk()
-root.title("WannaCrypt Simulator")
+root.title("LazyWare")
 root.geometry("1300x840")
 root.configure(bg="#B20000")
 lock_image = Image.open("lock.png").resize((300, 300))
